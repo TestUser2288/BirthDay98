@@ -179,7 +179,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
         ".baloons img",
-        2.5, {
+        1, {
             opacity: 0.9,
             y: 1400,
         }, {
@@ -242,12 +242,12 @@ const animationTimeline = () => {
     )
     .staggerTo(
         ".eight svg",
-        1.5, {
+        0.5, {
             visibility: "visible",
             opacity: 0,
             scale: 80,
             repeat: 3,
-            repeatDelay: 1.4,
+            repeatDelay: 0.4,
         },
         0.3
     )
