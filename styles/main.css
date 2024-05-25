@@ -221,6 +221,7 @@ body {
 }
 
 #replay {
+  color: rgb(255, 7, 143);
   cursor: pointer;
   z-index: 3;
 }
